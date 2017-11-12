@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace EnchantedToolsMod.src.Items {
+namespace EnchantedToolsMod.Items {
 	public class EnchantedPickaxe : ModItem {
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Enchanted Pickaxe");
@@ -15,7 +15,7 @@ namespace EnchantedToolsMod.src.Items {
 			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 1;
-			item.knockBack = 3.5f;
+			item.knockBack = 4;
 			item.value = 10000;
 			item.rare = 1;
 			item.UseSound = SoundID.Item1;
