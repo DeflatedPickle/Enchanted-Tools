@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace EnchantedToolsMod.Items {
+namespace EnchantedToolsMod.src.Items {
 	public class EnchantedPickaxe : ModItem {
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Enchanted Pickaxe");
