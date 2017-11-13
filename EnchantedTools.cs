@@ -1,10 +1,10 @@
 using Terraria.ModLoader;
 
-namespace EnchantedToolsMod {
-	class EnchantedToolsMod : Mod {
-		public static EnchantedToolsMod instance;
+namespace EnchantedTools {
+	class EnchantedTools : Mod {
+		public static EnchantedTools instance;
 		
-		public EnchantedToolsMod() {
+		public EnchantedTools() {
 			Properties = new ModProperties() {
 				Autoload = true,
 				AutoloadGores = true,

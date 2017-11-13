@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace EnchantedToolsMod.Items {
+namespace EnchantedTools.Items {
 	public class EnchantedHammer : ModItem {
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Enchanted Hammer");

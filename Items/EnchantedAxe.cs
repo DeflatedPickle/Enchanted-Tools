@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace EnchantedToolsMod.Items {
+namespace EnchantedTools.Items {
 	public class EnchantedAxe : ModItem {
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Enchanted Axe");
