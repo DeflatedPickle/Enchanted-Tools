@@ -9,12 +9,12 @@ namespace EnchantedTools.Items {
 		}
 		
 		public override void SetDefaults() {
-			item.damage = 22;
+			item.damage = 19;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
 			item.useTime = 20;
-			item.useAnimation = 20;
+			item.useAnimation = 23;
 			item.useStyle = 1;
 			item.knockBack = 5f;
 			item.value = 50000;

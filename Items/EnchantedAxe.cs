@@ -9,7 +9,7 @@ namespace EnchantedTools.Items {
 		}
 		
 		public override void SetDefaults() {
-			item.damage = 17;
+			item.damage = 15;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
@@ -21,7 +21,7 @@ namespace EnchantedTools.Items {
 			item.rare = 1;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-			item.axe = 13;
+			item.axe = 14;
 		}
 	}
 }
