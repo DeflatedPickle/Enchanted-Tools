@@ -11,8 +11,8 @@ namespace EnchantedTools.Items {
 		public override void SetDefaults() {
 			item.damage = 19;
 			item.melee = true;
-			item.width = 40;
-			item.height = 40;
+			item.width = 32;
+			item.height = 32;
 			item.scale = 1.25f;
 			item.useTime = 20;
 			item.useAnimation = 23;
