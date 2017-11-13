@@ -13,6 +13,7 @@ namespace EnchantedTools.Items {
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
+			item.scale = 1.25f;
 			item.useTime = 20;
 			item.useAnimation = 23;
 			item.useStyle = 1;
