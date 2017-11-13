@@ -9,20 +9,19 @@ namespace EnchantedTools.Items {
 		}
 		
 		public override void SetDefaults() {
-			item.damage = 10;
+			item.damage = 22;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
 			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 1;
-			item.knockBack = 4;
+			item.knockBack = 5f;
 			item.value = 50000;
 			item.rare = 1;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-			item.melee = true;
-			item.pick = 65;
+			item.hammer = 53;
 		}
 	}
 }
