@@ -2,9 +2,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace EnchantedToolsMod.Items {
-	public class EnchantedPickaxe : ModItem {
+	public class EnchantedAxe : ModItem {
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Enchanted Pickaxe");
+			DisplayName.SetDefault("Enchanted Axe");
 			// Tooltip.SetDefault("Shoots an enchanted beam");
 		}
 		
