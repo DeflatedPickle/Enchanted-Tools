@@ -28,20 +28,25 @@ namespace EnchantedTools.Items {
 		}
 
 		public override void MeleeEffects(Player player, Rectangle hitbox) {
-			if (Main.rand.Next(5) == 0) {
-				int dustType = Main.rand.Next(3);
-				
-				if (dustType == 0) {
+			if (Main.rand.Next(5) != 0) return;
+			var dustType = Main.rand.Next(3);
+
+			switch (dustType) {
+				case 0:
 					dustType = 15;
-				} else if (dustType == 1) {
+					break;
+						
+				case 1:
 					dustType = 57;
-				} else {
+					break;
+						
+				default:
 					dustType = 58;
-				}
-				
-				Dust dust = Dust.NewDustDirect(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, dustType, player.direction * 2, 0f, 150, default(Color), 1.3f);
-				dust.velocity *= 0.2f;
+					break;
 			}
+				
+			var dust = Dust.NewDustDirect(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, dustType, player.direction * 2, 0f, 150, default(Color), 1.3f);
+			dust.velocity *= 0.2f;
 		}
 	}
 }

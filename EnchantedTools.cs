@@ -2,7 +2,7 @@ using Terraria.ModLoader;
 
 namespace EnchantedTools {
 	class EnchantedTools : Mod {
-		public static EnchantedTools instance;
+		private static EnchantedTools _instance;
 		
 		public EnchantedTools() {
 			Properties = new ModProperties() {
@@ -13,7 +13,7 @@ namespace EnchantedTools {
 		}
 
 		public override void Load() {
-			instance = this;
+			_instance = this;
 		}
 	}
 }
