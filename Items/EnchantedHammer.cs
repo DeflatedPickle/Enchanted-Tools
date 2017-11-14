@@ -1,3 +1,5 @@
+using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -23,6 +25,12 @@ namespace EnchantedTools.Items {
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 			item.hammer = 53;
+		}
+
+		public override void MeleeEffects(Player player, Rectangle hitbox) {
+			if (Main.rand.Next(1) == 0) {
+				Lighting.AddLight(player.Center, new Vector3(1f, 1f, 1f));
+			}
 		}
 	}
 }
