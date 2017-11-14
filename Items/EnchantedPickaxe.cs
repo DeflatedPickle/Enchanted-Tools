@@ -28,7 +28,7 @@ namespace EnchantedTools.Items {
 			item.pick = 65;
 		}
 
-		public override void MeleeEffects(Player player, Rectangle hitbox){
+		public override void MeleeEffects(Player player, Rectangle hitbox) {
 			if (Main.rand.Next(5) == 0) {
 				int dustType = Main.rand.Next(3);
 				
