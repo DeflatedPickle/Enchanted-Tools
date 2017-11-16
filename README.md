@@ -1,2 +1,2 @@
 # Enchanted-Tools
-A Terraria mod completes the enchanted set.
+A Terraria mod that completes the enchanted set.
